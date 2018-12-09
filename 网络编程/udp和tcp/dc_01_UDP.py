@@ -13,7 +13,7 @@ def send_msg():
     #  发送数据
     while True:
         send_data = input("请输入要发送的数据：")
-        udp_socket.sendto(send_data.encode("utf-8"), ("", 7789))
+        udp_socket.sendto(send_data.encode("utf-8"), ("", 8080))
 
 
 def main():

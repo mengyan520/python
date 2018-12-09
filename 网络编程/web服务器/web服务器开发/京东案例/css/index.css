@@ -1,0 +1,162 @@
+.sub-bannder {
+    position: relative;
+}
+.sub-bannder a {
+    position: absolute;
+    width: 100%;
+    height: 644px;
+    background: url("../image/subbanner.jpg") no-repeat center;
+
+}
+.main {
+    position: relative;
+    z-index: 1;
+}
+.main-slider {
+    float: left;
+    margin:12px 0 0 220px;
+    width: 730px;
+    height: 454px;
+    position: relative;
+}
+.main-slider ul {
+    position: absolute;
+    left: 50%;
+    margin-left: -66px;
+    bottom: 10px;
+}
+.main-slider li {
+    float: left;
+    color: #ffffff;
+    width: 18px;
+    height: 18px;
+    background: #3e3e3e;
+    line-height:18px;
+    text-align: center;
+    border-radius:9px;
+    margin:0 2px;
+    cursor: pointer;
+}
+.main-slider .current {
+    background: red;
+}
+.arrow a {
+    position: absolute;
+    top: 50%;
+    margin-top: -31px;
+    width: 28px;
+    height: 62px;
+    background: rgba(0,0,0,0.3);
+    color: #ffffff;
+    font: 400 22px/62px "SimSun", "宋体";
+    text-align: center;
+    /*left: 0;*/
+}
+.arrow a:hover {
+    background: rgba(0,0,0,0.6);
+
+}
+a.arrow-left {
+    left: 0;
+}
+a.arrow-right {
+    right: 0;
+}
+.main-news {
+    float: right;
+}
+.main-news-top {
+    height: 372px;
+    width: 248px;
+    border: 1px solid #e4e4e4;
+    margin: 12px 0 5px;
+    overflow: hidden;
+}
+.main-news-top-faster {
+    height: 163px;
+    border-bottom: 1px dashed #e4e4e4;
+}
+.main-news-top-faster-title {
+    height: 32px;
+    border-bottom: 1px dotted #e8e8e7;
+    line-height: 32px;
+    padding: 0 15px;
+}
+.main-news-top-faster-title h2 {
+    font: 400 16px/32px 微软雅黑;
+}
+.main-news-top-faster-title a {
+    /*font-family: consolas;*/
+}
+.main-news-top-faster-content {
+    padding: 5px 0 0 15px;
+}
+.main-news-top-faster-content li {
+    line-height:24px;
+}
+.main-news-top-faster-content span {
+    font-weight: 700;
+    margin-right: 5px;
+}
+.main-news-top-money ul {
+    width: 260px;
+}
+.main-news-top-money li {
+    width: 62px;
+    height: 70px;
+    border: 1px solid #e8e8e7;
+    list-style: none;
+    float: left;
+    margin-left: -1px;
+    margin-top: -1px;
+    border-top: none;
+    line-height: 30px;
+}
+.main-news-top-money a {
+    display: inline-block;
+    width: 62px;
+    height: 30px;
+    text-align: center;
+    padding-top: 40px;
+    position: relative;
+}
+.main-news-top-money a i {
+    position: absolute;
+    top: 13px;
+    left: 18px;
+    background: url("../image/fly.png") no-repeat 0 0;
+    width: 25px;
+    height: 25px;
+}
+.sub {
+    position: absolute;
+    top: 0px;
+    right: 10px;
+    background: red;
+    font: 400 12px/12px 微软雅黑;
+    color: #ffffff;
+    text-align: center;
+}
+.today {
+    /*margin: 10px auto 20px;*/
+    padding: 10px 0 20px;
+}
+.today-left {
+    float: left;
+    width: 210px;
+    height: 151px;
+    background: url("../image/pic1.jpg") no-repeat 0 0;
+}
+.today-right {
+    width: 1000px;
+    float: right;
+    overflow: hidden;
+    position: relative;
+}
+.today-right ul {
+    width: 410%;
+}
+.today-right li {
+    float: left;
+    margin-right: 1px;
+}
